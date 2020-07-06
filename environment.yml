@@ -5,7 +5,8 @@ channels:
     - ioam
 dependencies:
     - python=3.6    # Python version 3.6
-    - bottleneck    # C-optimized array functions for NumPy
+    - bottleneck   # C-optimized array functions for NumPy
+    - intake       #data catalog reader
     - cartopy      # Geographic plotting toolkit
     - cython        # Transpile Python->C
     - dask          # Parallel processing library
