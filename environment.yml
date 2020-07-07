@@ -8,8 +8,7 @@ dependencies:
     - bottleneck   # C-optimized array functions for NumPy
     - intake       #data catalog reader
     - intake-xarray
-    - cartopy      # Geographic plotting toolkit
-    - cython        # Transpile Python->C
+    - xgcm
     - dask          # Parallel processing library
     - dask-gateway  # Parallel procesing gateway
     - future        # Python 2/3 compatibility
